@@ -5,7 +5,6 @@ import {PostsService } from '../services/posts.service';
   moduleId: module.id,
   selector: 'user',
   templateUrl: '../view/user.component.html',
-  // styleUrls: ['./app.component.css'],
   providers: [PostsService]
 })
 
@@ -18,8 +17,8 @@ export class UserComponent {
   posts: Post[];
 
   constructor(private postsService: PostsService) {
-    this.name = '李雨ヒョン';
-    this.email = 'leeouhyoun@gmail.com';
+    this.name = 'testName';
+    this.email = 'test@gmail.com';
     this.address = {
       street: '一丁目',
       city: '新宿',
@@ -42,6 +41,9 @@ export class UserComponent {
 
   deleteHobby(index: number) {
     this.hobbies.splice(index, 1);
+  }
+  bootboxTest() {
+    console.log('bootboxTest');
   }
 }
 
