@@ -43,3 +43,5 @@ Thumbs.db
 
 # ATOM Editor setting File
 tslint.json
+
+package-lock.json
