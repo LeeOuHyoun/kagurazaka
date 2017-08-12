@@ -7,12 +7,13 @@ import { AccordionModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { UserComponent } from './components/user.component';
-import { AboutComponent }  from './components/about.component';
-import { routing }  from './app.routing';
+import { AboutComponent } from './components/about.component';
+import { MainComponent } from './components/main.component';
+import { routing } from './app.routing';
 
 @NgModule({
-  imports: [ BrowserModule, FormsModule, HttpModule, routing, NgbModule, AccordionModule.forRoot() ],
-  declarations: [AppComponent, UserComponent, AboutComponent ],
+  imports: [BrowserModule, FormsModule, HttpModule, routing, NgbModule, AccordionModule.forRoot()],
+  declarations: [AppComponent, UserComponent, AboutComponent, MainComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
