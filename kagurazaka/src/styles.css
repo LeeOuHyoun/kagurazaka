@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+.panel-heading-fd{
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background: #39b1cc;
+    background: -moz-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #51bbd2), color-stop(100%, #2d97af));
+    background: -webkit-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+    background: -o-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+    background: -ms-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+    background: linear-gradient(to bottom, #51bbd2 0%, #2d97af 100%);
+    color: #ffffff;
+    padding: 5px 17px 8px;
+
+}
+
+.panel-title-fd{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    /*color: #d3eced;*/
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.background {
+background: rgb(225,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(225,255,255) 0%, rgb(225,255,255) 7%, rgb(225,255,255) 12%, rgb(253,255,255) 12%, rgb(230,248,253) 30%, rgb(200,238,251) 54%, rgb(190,228,248) 75%, rgb(177,216,245) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(225,255,255) 0%,rgb(225,255,255) 7%,rgb(225,255,255) 12%,rgb(253,255,255) 12%,rgb(230,248,253) 30%,rgb(200,238,251) 54%,rgb(190,228,248) 75%,rgb(177,216,245) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(225,255,255) 0%,rgb(225,255,255) 7%,rgb(225,255,255) 12%,rgb(253,255,255) 12%,rgb(230,248,253) 30%,rgb(200,238,251) 54%,rgb(190,228,248) 75%,rgb(177,216,245) 100%);  
+}
